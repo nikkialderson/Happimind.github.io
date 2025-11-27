@@ -286,8 +286,6 @@ header .heading {
   outline: none;
   text-decoration: none;
   display: inline-block;
-  margin-top: 10px;
-  text-align: center;
 }
 
 .listen-btn:hover {
