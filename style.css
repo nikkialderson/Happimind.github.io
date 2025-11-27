@@ -240,6 +240,7 @@ header .heading {
 
 .products .card h2 {
   margin-bottom: 10px;
+  text-align: left;
 }
 
 .products .card p {
