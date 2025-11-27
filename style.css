@@ -261,7 +261,7 @@ header .heading {
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
   transition: transform 0.2s;
-  gap: 12px;
+  gap: 20px;
   font-size: 16px;
   text-align: left;
   line-height: 1.6; 
