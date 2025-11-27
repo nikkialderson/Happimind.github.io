@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HappiMind – Card Deck</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Nav Bar -->
+<nav>
+  <a href="index.html"><img src="images/logo.png" alt="HappiMind Logo" class="Logo-img"></a>
+  <div class="nav-links">
+    <a href="Products.html">Products</a>
+    <a href="#about">About Us</a>
+  </div>
+</nav>
+
+<!-- Product Gallery -->
+ <section class="product-layout">
+
+  <!-- LEFT SIDE: Images -->
+  <div class="product-gallery">
+
+    <div class="big-img-container">
+      <img id="expandedImg" src="images/product1.png" alt="HappiMind Card Deck">
+    </div>
+
+    <div class="thumbnail-row">
+      <img class="thumbnail" src="images/product1.png" onclick="swapImage(this)">
+      <img class="thumbnail" src="images/product2.png" onclick="swapImage(this)">
+      <img class="thumbnail" src="images/product3.png" onclick="swapImage(this)">
+    </div>
+
+  </div>
+
+  <!-- RIGHT SIDE: Info -->
+  <div class="product-info">
+    <h2>HappiMind Card Deck</h2>
+    <p>
+      A 40 card deck designed to help children learn emotional regulation in a fun, 
+      interactive way. Each card guides self awareness, coping strategies, and 
+      healthy communication skills.
+    </p>
+
+    <ul class="product-features">
+      <li>40 engaging cards</li>
+      <li>Supports emotional regulation</li>
+      <li>Great for home or classroom use</li>
+      <li>Research informed activities</li>
+    </ul>
+    <a href="#" class="cta-btn">Buy Now</a>
+  </div>
+
+</section>
+
+
+<!-- Footer -->
+<footer class="site-footer">
+  <div class="footer-content">
+    <img src="images/logo.png" alt="HappiMind Logo" class="footer-logo-img">
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="Products.html">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <p class="footer-text">&copy; 2025 HappiMind. All rights reserved.</p>
+  </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
